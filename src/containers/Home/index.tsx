@@ -14,7 +14,7 @@ const Home = () => {
       <img className="pokeball" src={ gaming } alt="img_prin" />
         <h1 className="tittle">Who's that Pokémon?</h1>
         <div className="home_content">
-          <PokemonLink image={ bullbasaur } name="bullbasaur" />
+          <PokemonLink image={ bullbasaur } name="bulbasaur" />
           <PokemonLink image={ charmander } name="charmander" />
           <PokemonLink image={ squirtle } name="squirtle" />
         </div>
