@@ -1,10 +1,12 @@
 ### Start aplication
-## `yarn`
-##` yarn start`
+`yarn`
+`yarn start`
 
 ## Tecnologies
 react
+
 react-dom
+
 typescript
 
 
