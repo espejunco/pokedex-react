@@ -22,3 +22,8 @@
   display: flex;
   text-align: center;
 }
+@media (max-width: 700px) {
+  .home_content {
+    flex-direction: column;
+  }
+}

@@ -4,7 +4,7 @@ import './styles.css';
 const Topbar = () => {
   return (
     <div className="top_root">
-      <h2>Pokédex</h2>
+      <h2 className="top_text">Pokédex</h2>
     </div>
   );
 };

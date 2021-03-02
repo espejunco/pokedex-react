@@ -13,7 +13,7 @@ const PokemonLink: FC<Props> = ({name, image, lastVisited}) => {
   if (lastVisited) {
     return (
       <NavLink to={`/pokemon/${name}`} className="link_root">
-        <img src={image} alt="link_image" className="link_image_visited" />
+        <img src={image} alt="img_link" className="link_image link_image_visited" />
       </NavLink>
       )
     }
