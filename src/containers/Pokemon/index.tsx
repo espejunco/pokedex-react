@@ -21,7 +21,7 @@ const Pokemon = () => {
   return (
     <div className="pokemon_container">
 
-      <img src={pokemon?.image} />
+      <img className="img_poke" src={pokemon?.sprites.front_default } alt="img_poke" />
       <p>{pokemon?.name}</p>
       <p>Type: {pokemon?.type}</p>
       <p>Weight: {pokemon?.weight}</p>
