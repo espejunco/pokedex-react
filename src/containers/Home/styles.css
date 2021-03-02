@@ -1,5 +1,24 @@
 .pokeball {
-  width: 150px;
-  height: 150px;
-
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.home_content{
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  margin-top: 50px;
+}
+.tittle{
+  margin-bottom: 50px;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  text-align: center;
 }
