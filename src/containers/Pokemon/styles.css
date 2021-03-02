@@ -3,18 +3,23 @@
   text-align: center;
   align-items: center;
   justify-content: center;
+  margin-bottom: 200px;
 }
 
 p{
-  margin-top: 10px;
+  padding: 15px;
 }
 
-.go_back{
-  width: 200px;
-  height: 30px;
+.detail_poke{
+  margin-bottom: 150px;
+}
+
+.link_back{
+  padding: 10px 25px;
   border-radius: 10px;
-  margin-top: 150px;
   background-color: #729ed1;
+  color: white;
+  text-decoration: none;
 }
 
 .img_poke{

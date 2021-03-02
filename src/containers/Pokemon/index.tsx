@@ -30,9 +30,11 @@ const Pokemon = () => {
     <div className="pokemon_container">
 
       <img className="img_poke" src={pokemon?.sprites.front_default } alt="img_poke" />
-      <p>{pokemon?.name}</p>
-      <p>Type:  | {pokemon?.types.map((item: ItemType) => <span>{item.type.name} | </span>)}</p>
-      <p>Weight: {pokemon?.weight}</p>
+      <div className="detail_poke">
+        <p>{pokemon?.name}</p>
+        <p>Type:  | {pokemon?.types.map((item: ItemType) => <span>{item.type.name} | </span>)}</p>
+        <p>Weight: {pokemon?.weight}</p>
+      </div>
 
       <Link className="link_back" to={{ pathname: "/", state: { prevPath: location.pathname } }}>
         Go back
