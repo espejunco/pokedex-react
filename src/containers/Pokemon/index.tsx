@@ -6,6 +6,14 @@ type Params = { name: string };
 
 type PokemonType = any | null;
 
+type ItemType = {
+  slot: number;
+  type: {
+    name: string;
+    url: string;
+  }
+};
+
 const Pokemon = () => {
   const { name } = useParams<Params>();
   const { location } = useHistory();
@@ -23,14 +31,12 @@ const Pokemon = () => {
 
       <img className="img_poke" src={pokemon?.sprites.front_default } alt="img_poke" />
       <p>{pokemon?.name}</p>
-      <p>Type: {pokemon?.type}</p>
+      <p>Type:  | {pokemon?.types.map((item: ItemType) => <span>{item.type.name} | </span>)}</p>
       <p>Weight: {pokemon?.weight}</p>
 
-      <button className="go_back">
-        <Link className="link_back" to={{ pathname: "/", state: { prevPath: location.pathname } }}>
-          Go back
-        </Link>
-      </button>
+      <Link className="link_back" to={{ pathname: "/", state: { prevPath: location.pathname } }}>
+        Go back
+      </Link>
     </div>
   );
 };
