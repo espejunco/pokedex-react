@@ -1,0 +1,12 @@
+.top_root{
+  background-color: #729ed1;
+  height: 55px;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.top_text{
+  margin-left: 25px;
+}
