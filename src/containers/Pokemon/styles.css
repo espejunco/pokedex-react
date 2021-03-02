@@ -1,9 +1,9 @@
 .pokemon_container{
-  margin:auto;
+  width: 100%;
   text-align: center;
   align-items: center;
   justify-content: center;
-  margin-bottom: 200px;
+  margin: 200px 0;
 }
 
 p{
@@ -23,6 +23,14 @@ p{
 }
 
 .img_poke{
-  margin-top: 150px;
   width: 180px;
+}
+
+@media (max-width: 700px) {
+  .pokemon_container {
+    margin: 30px 0;
+  }
+  .detail_poke{
+    margin-bottom: 40px;
+  }
 }
