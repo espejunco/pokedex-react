@@ -1,8 +1,8 @@
-### Templates
+## Templates
 
 
 
-### Start aplication
+## Start aplication
 `yarn`
 
 `yarn start`
