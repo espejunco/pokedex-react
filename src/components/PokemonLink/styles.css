@@ -1,15 +1,14 @@
 .link_root {
   margin: 25px;
 }
+
 .link_image_visited{
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
   border: 5px solid #FF0000;
 }
 
 .link_image{
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
+  padding: 10px;
 }
