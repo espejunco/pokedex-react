@@ -1,19 +1,28 @@
-## Templates
-
-
+# Pokedex
+[Demo](https://pokedex-react-ts.netlify.app)
 
 ## Start aplication
-`yarn`
+```bash
+yarn
+yarn start
+```
 
-`yarn start`
+## Technologies
+- React
+- Typescript
+- Css
+- React-router
 
-## Tecnologies
-react
+## Templates
 
-react-dom
+#### Home
+![Imgur](https://i.imgur.com/W443JMM.png)
 
-typescript
+#### Pokemon
+![Imgur](https://i.imgur.com/3Pp3XT4.png)
 
+#### Home visited link
+![Imgur](https://i.imgur.com/Jr5hXTP.png)
 
 
 # Getting Started with Create React App
