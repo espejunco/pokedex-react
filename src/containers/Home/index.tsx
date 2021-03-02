@@ -9,7 +9,7 @@ import { RouteComponentProps } from 'react-router-dom';
 import "containers/Home/styles.css";
 
 const Home: FC<RouteComponentProps> = (props) => {
-  const preRoute: any = props.location.state;
+  const preRoute: any = props.location.state || "";
 
   return (
     <div>
